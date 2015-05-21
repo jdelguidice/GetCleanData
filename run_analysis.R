@@ -76,7 +76,6 @@ mydf2 <- ddply(mydf2, .(Activity, Subject), colwise(mean))
 
 
 ##
-## Save data sets as CSV files
-write.csv(mydf, file="C:\\Users\\James\\Documents\\GitHub\\GetCleanData\\TidySet1.csv")
-write.csv(mydf2, file="C:\\Users\\James\\Documents\\GitHub\\GetCleanData\\TidySet2.csv")
+## Save data set as TXT files
+write.table(mydf2, file="C:\\Users\\James\\Documents\\GitHub\\GetCleanData\\TidySet2.txt", row.name=FALSE)
 
