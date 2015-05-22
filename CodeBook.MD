@@ -1,11 +1,8 @@
----
-title: "CodeBook"
-output: html_document
----
+##Codebook
 
 This is the code book for the Getting and Cleaning Data course project. 
 
-SOURCE DATA COLLECTION  
+#SOURCE DATA COLLECTION  
 Human Activity Recognition Using Smartphones Data Set  
 (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)  
 
@@ -16,7 +13,7 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
 
 
-DATA TRANSFORMATIONS  
+#DATA TRANSFORMATIONS  
 All measurements from the original experiment ("training", "Test") are combined into a single set and only the measurements related to either means or standard deviations are included (-std or -mean.)  
 
 Activity IDs are replaced with corresponding activity names.  
